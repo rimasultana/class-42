@@ -1,8 +1,8 @@
-const fruits = new Map ([
-    ["apple,500"],
-    ["banana,400"],
-    ["orange,200"]
+const fruits = new Map();
 
-]);
+// Set Map Values
+fruits.set("apples", 500);
+fruits.set("bananas", 300);
+fruits.set("oranges", 200);
 
-console.log(fruits.get("orange"));
+document.getElementById("demo").innerHTML = fruits.get("banana");
